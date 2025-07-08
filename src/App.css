@@ -1,0 +1,97 @@
+/* Genel stil ayarları */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Hesap makinesi ana kutusu */
+.hesap-makinesi {
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 300px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+/* Ekran stili */
+.ekran {
+  background-color: #444;
+  color: white;
+  font-size: 2rem;
+  padding: 10px 15px;
+  text-align: right;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+/* Tuş düzeni */
+.tuslar {
+  display: flex;
+  gap: 10px;
+}
+
+.rakamlar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  flex: 3;
+}
+
+.islemler {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  flex: 2;
+}
+
+/* Tuş stili */
+button {
+  background-color: #555;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+.islemler button {
+  background-color: #ff9500;
+}
+
+.islemler button:hover {
+  background-color: #ffaa33;
+}
+
+/* Eşittir ve temizle tuşları için özel stil */
+.islemler button:nth-child(5),
+.islemler button:nth-child(6) {
+  background-color: #ff3b30;
+}
+
+.islemler button:nth-child(5):hover,
+.islemler button:nth-child(6):hover {
+  background-color: #ff5e54;
+}

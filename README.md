@@ -17,16 +17,15 @@ Bu proje, React, HTML, CSS ve JavaScript kullanılarak geliştirdiğim orta düz
 
 ## Kurulum ve Çalıştırma
 1. Proje klasöründe terminal açın.
-2. Gerekli paketleri yüklemek için:
-
+2. Terminal kısmına "npm start" komutunu yaz ve çalıştır.
 
    
 
 ## Notlar
-- Kodlar ve tasarım profesyonel seviyede değil, orta düzeyde hazırlandı.
+- Kodlar ve tasarım orta düzeyde hazırlandı.
 - Kodlarda açıklama satırları mevcut.
 - Klavye ile girişte bazı syntax düzeltmeleri ve event handler iyileştirmeleri yapıldı.
 - Sayı formatlama fonksiyonu eklendi, ondalık ve binlik ayraçlar düzgün gösteriliyor.
-- Arayüzde sade ve anlaşılır bir tasarım hedeflendi.
+
 
 
